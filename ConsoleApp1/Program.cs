@@ -1,52 +1,52 @@
 ﻿using System;
 
 namespace ConsoleApp1
-/*
 {
-    class Program
+
+    /// 1. uzdevums
+    /// 
+
+    class Telefons
     {
-        static void Main(string[] args)
-        {
-            Person person = new Person("Ellie");
-
-            Person person2 = person;
-
-            // person.Name = "Ellie";
-            person.Age = 100;
-            person.IsMale = false;
-            person.Money = 154.58;
-            person.Initial = 'A';
-
-            person2.Age = 26;
-
-            string greeting = person.GetGreeting();
-            Console.WriteLine(greeting);
-        }
-    }
-}
-*/
-
-{
-    class Program
-    {
-        static void Main(string[] args)
+        // private static void Main(string[] args)
+        private static void SetPhone(string[] args)
         {
             Phone phone = new Phone("Telefons");
 
             phone.Brand = "Blackberry";
             phone.Type = "Dual Sim";
             phone.Size = 14.7;
-            phone.Call = true;
-            phone.Text = true;
 
             string greeting = phone.GetGreeting();
             Console.WriteLine(greeting);
 
             string call = phone.Call();
-            Console.WriteLine(call);
+            //  Console.WriteLine(call);
 
             string text = phone.Text();
-            Console.WriteLine(text);
+            // Console.WriteLine(text);
+        }
+    }
+
+    /// 2. uzdevums
+    /// 
+
+    class Mašīna
+    {
+        static void Main(string[] args)
+        {
+            Car car = new Car("Mašīna");
+
+            car.Brand = "Reliant Robin";
+            car.Plate = "AB-1234";
+            car.Speed = 135;
+
+            string greeting2 = car.GetGreeting2();
+            Console.WriteLine(greeting2);
+
+            string drive = car.Drive();
+            Console.WriteLine(drive);
+
         }
     }
 }

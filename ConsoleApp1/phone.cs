@@ -3,6 +3,8 @@
 
 namespace ConsoleApp1
 {
+
+
     public class Phone
     {
         public Phone(string brand)
@@ -12,11 +14,6 @@ namespace ConsoleApp1
         public string Brand { get; set; }
         public string Type { get; set; }
         public double Size { get; set; }
-
-        /*
-                public bool Call { get; set; }
-                public bool Text { get; set; }
-        */
 
         public string Call()
         {
@@ -32,7 +29,7 @@ namespace ConsoleApp1
 
         public string GetGreeting()
         {
-            string greeting = "Telefona marka ir" + " " + Brand + " " + "Un teleforna modelis ir" + " " + Type + " " + "telefona izmers ir" + " " + Size + " " + "cm.";
+            string greeting = "Telefona marka ir" + " " + Brand + " " + "un teleforna modelis ir" + " " + Type + " " + "telefona izmers ir" + " " + Size + " " + "cm.";
             return greeting;
 
         }
