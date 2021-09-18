@@ -4,10 +4,6 @@
 namespace ConsoleApp1
 {
 
-
-    /// 1. uzdevums
-    /// 
-
     public class Car
     {
         public Car(string brand)
@@ -45,7 +41,7 @@ namespace ConsoleApp1
 
         public string Honk()
         {
-            string honk = "Honk-honk.";
+            string honk = "Beep-Beep.";
             return honk;
         }
 
